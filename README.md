@@ -29,7 +29,7 @@ options = $.extend({
   $("#slider").theCascadingSlider({pauseDuration: 4800}); // default slide duration is 4800ms
 </SCRIPT>
 ```
-3. Using attrribut in your slide element (DATA-PAUSE)
+3. Using attrribut in your slide elements (DATA-PAUSE)
 ```
 <TABLE ID="slider">
   <TR>
