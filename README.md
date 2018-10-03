@@ -9,9 +9,9 @@ There is 3 way to do it :
 
 1. Manually change the pauseDuration in tcs.js from 4800 to what do you want in micro second
 ```
-		options = $.extend({
-			"pauseDuration": 4800 // The default waiting time before the slide slides. If DATA-PAUSE attribute is present in the slide element, then this option is deferred.
-		}, options);
+options = $.extend({
+	"pauseDuration": 4800 // The default waiting time before the slide slides. If DATA-PAUSE attribute is present in the slide element, then this option is deferred.
+}, options);
 ```
 2. Add extra JS in your webpage 
 ```
