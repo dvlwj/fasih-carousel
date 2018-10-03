@@ -1,0 +1,37 @@
+/*
+ * Fasih Carousel (tcs.css)
+ * Version     : 1.0
+ * Author      : Fathi “fsc” Anshory, David "dvlwj" Valentino
+ * Description : A jQuery plugin to make a image slider that cascades its child element, like accordion.
+ * License     : MIT
+*/
+
+.nrm-slider {
+	width: 100%;
+	min-height: 400px;
+	border-collapse: collapse;
+}
+
+.nrm-slider td {
+	background-size: cover;
+	background-position-x: 30%;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+	transition-property: all;
+	transition-duration: 0.6s;
+	transition-timing-function: ease-out;
+	transition-delay: 0s;
+}
+
+.nrm-slider td:hover:not(.shown) {
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.nrm-slider td > * {
+	display: none;
+}
+
+.nrm-slider td.shown > * {
+	display: block;
+}
