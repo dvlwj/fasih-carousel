@@ -1,9 +1,9 @@
 # Fasih-Carousel
-A jQuery plugin to make a image slider that cascades its child element, like accordion.
+<B>A jQuery plugin to make a image slider that cascades its child element, like accordion.</B>
 
 Fasih Carousel is used to make a carousel of images in easiest way. Currently there is just one possible option for configuration, Pause Duration. We will update the configuration and option more in the future (maybe).
 
-How to configure the Pause Duration?
+<B>How to configure the Pause Duration?</B>
 
 There is 3 way to do it :
 
