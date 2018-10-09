@@ -161,6 +161,5 @@ export default class CFasihCarousel {
             return;
         this.index = idx - 1;
         this.start(true);
-        clearTimeout(this.timeoutID);
     }
 }

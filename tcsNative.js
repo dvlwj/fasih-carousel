@@ -99,7 +99,7 @@ export default function theCascadingSlider(id, opts = {}) {
         }, interval);
     }
 
-    /** Click Handler for a TD nodes */
+    /** Click Handler for the TD nodes */
 
     function onClick() {
         elRoot.nrmSlider.goTo(this);
